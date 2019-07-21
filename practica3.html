@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Práctica</title>
+		<meta charset="UTF8"/>
+	</head>
+	<body>
+
+		<script>
+			/*-------------------------------------------------------
+
+			- De los valores listados a continuación, selecciona los valores que SÍ sean operables y asígnalos cada uno a una variable (¡no olvides declararlas previamente!):
+
+				1
+				"1"
+				2.22
+				'2,22'
+				-2.22
+				"-2,22"
+				" -2 "
+				"-2"
+				-2
+				33.33
+				'33. 33'
+				'3 3 .33'
+				"hola"
+
+			- Declara otras 4 variables adicionales, en las que, en cada una de ellas y haciendo uso de los operadores aritméticos + - / * realices un cálculo con las variables operables anteriores. Utiliza cada operador una vez.
+
+			- Mediante el método write() escribe un total de 6 frases en el documento como la que sigue:
+
+				"El resultado de realizar una operación de <NOMBREOPERACION> entre los valores <VALORVARIABLE> y <VALORVARIABLE> devuelve <RESULTADO>"
+
+			- Escribe en el texto <NOMBREOPERACION> el nombre de la operación que estés realizando, y sustituye el texto <VALORAVARIABLE> por el valor que tenga almacenado cada una de las dos variables, así como el texto <RESULTADO> por el resultado que arroje la operación. Aquí puedes ver un ejemplo de cómo debe quedar cada frase:
+
+				"El resultado de realizar una operación de suma entre los valores 1 y -2 devuelve -1"
+
+			-------------------------------------------------------*/
+
+// Variables de operables:
+			let example1 = 1;
+			let example2 = "1";
+			let example3 = 2.22;
+			let example5 = -2.22;
+			let example7 = " -2 ";
+			let example8 = "-2";
+			let example9 = -2;
+			let example10 = 33.33;
+
+// Operaciones:
+			let resultadoSuma	= example1 + example10;
+			let resultadoResta = example9 - example5;
+			let resultadoMultiplicacion = example2 * example3;
+			let resultadoDivision = example8 / example7;
+
+			document.write("El resultado de realizar una operación de SUMA entre los valores " + example1 + " y " + example10 + " devuelve " + resultadoSuma + " . <br>");
+			document.write("El resultado de realizar una operación de RESTA entre los valores " + example9 + " y " + example5 + " devuelve " + resultadoResta + " . <br>");
+			document.write("El resultado de realizar una operación de MULTIPLICACIÓN entre los valores " + example2 + " y " + example3 + " devuelve " + resultadoMultiplicacion + " . <br>");
+			document.write("El resultado de realizar una operación de DIVISIÓN entre los valores " + example8 + " y " + example7 + " devuelve " + resultadoDivision + " . <br>");
+
+		</script>
+
+	</body>
+</html>
